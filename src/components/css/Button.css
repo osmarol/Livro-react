@@ -1,0 +1,27 @@
+.Button {
+    border-radius: 14px;
+    border: 0;
+    box-shadow: 0px 1px 1px #d9d9d9;
+    color: black;
+    cursor: pointer;
+    display: inline;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0,1s;
+    transition-property: transform;
+
+}
+.titulo {
+    margin-left: 30px;
+}
+.botao {
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+}
+.botao2 {
+    color: white;
+}
+
