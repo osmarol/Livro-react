@@ -13,7 +13,7 @@ export default class Pagina extends Component {
             <div style={{padding:'20px'}}>
                 
                 <div style={{background: 'grey', width: '400px', height:'200px', paddingLeft:'100px', position: "relative", left:'0px'}}>
-                    <h1>Component discoverer</h1>                                    
+                    <h1>Componentes discovery</h1>                                    
                     <h2>Logo</h2>
                     <div style={{display: 'inline-block', background:'purple'}}><Logo/></div>
                 </div> 
