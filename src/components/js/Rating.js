@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { render } from '@testing-library/react';
+//import {render}  from '@testing-library/react';
 
 class Rating extends React.Component {
     constructor(props) {
@@ -39,7 +39,7 @@ render() {
             className={i <= this.state.tmpRating ? 'RatingOn' : null}
             key={i}
             onClick={!this.props.readonly && this.setRating.bind(this, i)}
-            onMouseOver={!this.props.readonly && this.setTemp.bind(this. i)}
+            onMouseOver={!this.props.readonly && this.setTemp.bind(this, i)}
             >
              &#9734;
              </span>);
