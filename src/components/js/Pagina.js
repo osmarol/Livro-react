@@ -35,13 +35,13 @@ export default class Pagina extends Component {
                     <Actions onAction={type => alert(type)}/>
                 </div>
 
-                <div style={{background: 'yellow', width: '400px', height:'200px', paddingLeft:'100px', position: "relative", left:'0px'}}>
+                <div style={{background: 'yellow', width: '400px', height:'210px', paddingLeft:'100px', position: "relative", left:'0px'}}> 
                     <h2>Rating</h2>
-                    <div>No initial value: <Rating /></div> 
-                    <div>initial value 4: <Rating max={4} /></div>
-                    <div>This one goes to 11: <Rating max={11} /></div>
+                    <div>No initial value:<Rating/></div> 
+                    <div>initial value 4:<Rating defaultValue={4} /></div>
+                    <div>This one goes to 11:<Rating max={11} /></div>
                     <div>Read-only: <Rating readonly={true} defaultValue={3} /></div>
-                </div>
+                </div> 
             </div>   
         );
     }

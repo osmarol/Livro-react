@@ -1,7 +1,6 @@
 import classNames from 'classnames';
 import React from 'react';
 import PropTypes from 'prop-types';
-//import {render}  from '@testing-library/react';
 
 class Rating extends React.Component {
     constructor(props) {
@@ -53,7 +52,7 @@ render() {
             onMouseOut={this.reset.bind(this)}
          >
             {stars}
-            {this.props.readonly || !this.props.div
+            {this.props.readonly || !this.props.id
                 ? null
                 : <input 
                     type="hidden"
@@ -69,7 +68,7 @@ Rating.propTypes = {
     readonly: PropTypes.bool,
     max: PropTypes.number,
 };
-Rating.defaultValue = {
+Rating.defaultProps = {
     defaultValue: 0,
     max: 5,
 };
